@@ -6,7 +6,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 public class GameBoard extends Pane {
-    private static final int GRID_SIZE = 8; // 8x8的游戏网格
+    private static final  int GRID_SIZE = 8; // 8x8的游戏网格
     private static final int BLOCK_SIZE = 60; // 每个方块的大小
     private Block[][] blocks; // 存储所有方块
 
